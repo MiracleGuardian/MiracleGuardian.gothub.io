@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_Web_Page</title>
+    <style type="text/css">
+        .Info .name {
+            float: left;
+        }
+        
+        .Info .Image {
+            float: right;
+        }
+        
+        body {
+            background-image: url("MyWebBG.jpg");
+        }
+    </style>
+</head>
+
+<body>
+    <script LANGUAGE="JavaScript">
+        function changeImg() {
+
+            document.getElementById('Image2').style.display = "block";
+
+        }
+    </script>
+    <section id="sp-main-body">
+
+
+        <div class="Info">
+
+            <div class="name">
+                <h1>Welcome to my Webpage!</h1>
+                <p>
+                    <strong>
+                        Mr. Zhihao Wang (Lucas) ;
+                
+                                                BEng, 
+                                                <em>MUST;</em>
+                                                     
+                                                 Master, 
+                                                <em>HKPOLYU</em>
+                                                <br>
+                        </strong>
+                    <br>
+                    <br> Tel: (+852) 95329123
+                    <br> Email (Personal):
+                    <a href="mailto: lucaszhwang@gmail.com">
+                         lucaszhwang@gmail.com</a>
+                    <br> Email (Student email):
+                    <a href="mailto: zhihao.wang@connect.polyu.hk">
+                        zhihao.wang@connect.polyu.hk</a>
+                    <br>
+                </p>
+            </div>
+            <div align="center" class="image">
+                <img alt="Zhihao_Image" src="Zhihao_Image.jpg" width="150" height="175">
+            </div>
+
+        </div>
+        <p>&nbsp;</p>
+        <p>
+            <span>
+                    I was born in Qingdao, a beautiful coastal city in the north.
+                    I graduated from macau university of science and technology with a bachelor's degree in computer science.
+                    I am now studying electronic and information engineering at the Hong Kong polytechnic university.
+                    The reason why I chose to major in electronic and information engineering instead of information technology is that in the next year, I hope to get in touch with some fields that I didn't often contact during the four years of undergraduate study, such as Internet of things and wireless communication.
+                    Because of huawei and its 5G, the topic of communication is now undoubtedly the hottest technology topic in the Chinese mainland.
+                    Therefore, I also had an idea to learn something about communication.
+                </span>
+            <span>
+                    I also have some unique experiences in academic research and work.
+                    First, I had an internship.
+                    During this period, I was engaged in data visualization and data analysis in a quantitative trading company in shenzhen.
+                    Secondly, during my undergraduate study and after graduation, I cooperated with my tutor to conduct some academic research.
+                    First, my tutor Alex Leung and I worked with the new welfare bus company in macau and ASTRI in Hong Kong to design and customize a system based on deep learning and image tracking processing to assist bus companies in evaluating bus drivers and identifying their bad habits during driving.
+                    After graduation, I did not directly start my postgraduate study, but chose to continue to cooperate with my tutor to carry out some academic research.
+                    At the end of 2018, I went to the smart city research institute of Shanghai university for study and exchange.
+                    It was only a few months, but it was a very rewarding experience.
+                    Now in my spare time, I also continue to finish an academic paper.
+                    The topic of this paper is the analysis of social networks within companies.
+                </span>
+        </p>
+        <p>&nbsp;</p>
+        <h2>Learning area and Interesting area</h2>
+        <p>
+            Machine learning, Socialnetwork analysis, Information security, and Blockchain technology
+        </p>
+        <p>&nbsp;</p>
+        <input type="button" value="click me" onclick="changeImg()" />
+        <img src='Image2.jpg' id="Image2" style='display:none' width="110px" height="140px">
+        <p>
+            <span>
+                Note:You can see that the picture above is not me. If you want to see the picture, please click this button!
+            </span>
+        </p>
+        </div>
+        </div>
+    </section>
+</body>
+
+
+</html>
